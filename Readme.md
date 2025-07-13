@@ -18,10 +18,19 @@ dans le fichier .git/config
 Titre du commit
 
 Description de notre commitavec des informations sur l'evolution du projet
+
 # Envoyer un commit sur le depot distant
+
 ....
 bash
 git add .
 git commit -m "Titre du commit"
 git push origin main
+....
+
+# Création d'une branche
+
+....
+bash
+git checkout -b "Nom de la branche"
 ....
